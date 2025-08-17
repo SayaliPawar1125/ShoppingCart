@@ -1,0 +1,2 @@
+# ShoppingCart
+Practice - Angular19 
