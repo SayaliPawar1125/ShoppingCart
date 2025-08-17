@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>Order for {{ jsonobject.name }}</h2>
+
+  <div *ngFor="let item of itemList">
+    <app-item-component
+      [ItemName]="item.item"
+      [ItemPrice]="item.price">
+    </app-item-component>
+  </div>
+
+  <div class="summary">
+    <hr />
+    <p><strong>Total Items:</strong> {{ totalItems }}</p>
+    <p><strong>Total Price:</strong> ₹{{ totalPrice }}</p>
+  </div>
+</div>

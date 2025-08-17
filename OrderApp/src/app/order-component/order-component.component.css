@@ -1,0 +1,12 @@
+
+.summary {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #ccc;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.summary p {
+  margin: 4px 0;
+}
